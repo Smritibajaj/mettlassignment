@@ -116,7 +116,7 @@ html{
         text-align: left!important
     }
 }
-@media (max-width:340px) {
+@media (max-width:540px) {
     
     .list {
         margin: 0px 12px;
