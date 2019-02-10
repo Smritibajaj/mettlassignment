@@ -104,20 +104,11 @@ html{
     }
      
 }
-@media (max-width:576px){
-    .list{
-        margin: 0 32px;
-    }
-    .list::before{
-        width: 112px;
-        left: -70px;
-    }
 
-}
 @media (max-width:540px) {
    
     .list {
-        margin: 0px 12px;
+        margin: 0px 20px;
     }
     .list::before {
         width: 52px;
