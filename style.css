@@ -110,11 +110,11 @@ html{
     padding-inline-start: 0px;
      }
     .list {
-        margin: 0px 20px;
+        margin: 0px 25px;
     }
     .list::before {
-        width: 52px;
-        left: -44px;
+        width: 59px;
+        left: -57px;
     }
  .list:first-child::before {
   display: none;
