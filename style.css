@@ -112,11 +112,12 @@ html{
         width: 112px;
         left: -70px;
     }
-}
-@media (max-width:340px) {
-    .text-center-header {
+ .text-center-header {
         text-align: left!important
     }
+}
+@media (max-width:340px) {
+    
     .list {
         margin: 0px 12px;
     }
