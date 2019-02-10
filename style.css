@@ -106,7 +106,9 @@ html{
 }
 
 @media (max-width:540px) {
-   
+    ul{
+    padding-inline-start: 0px;
+     }
     .list {
         margin: 0px 20px;
     }
