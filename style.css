@@ -115,9 +115,7 @@ html{
 
 }
 @media (max-width:540px) {
-    .text-center-header {
-        text-align: left!important
-    }
+   
     .list {
         margin: 0px 12px;
     }
@@ -127,3 +125,9 @@ html{
     }
     
  }
+@media (max-width:320px){
+ .text-center-header {
+        text-align: left!important
+    }
+
+}
