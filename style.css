@@ -123,10 +123,6 @@ html{
         width: 52px;
         left: -38px;
     }
- li:first-child::before {
-  display: none;
-  width: 20px;
-}
     
  }
 @media (max-width:320px){
