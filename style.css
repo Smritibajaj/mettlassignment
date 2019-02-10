@@ -120,7 +120,7 @@ html{
         margin: 0px 12px;
     }
     .list::before {
-        width: 44px;
+        width: 48px;
         left: -40px;
     }
     
