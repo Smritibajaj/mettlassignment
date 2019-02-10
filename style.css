@@ -1,0 +1,128 @@
+*,
+*:before, 
+*:after {
+ box-sizing : border-box;
+}
+@import "compass/css3";
+@font-face{
+    font-family: 'Enter';
+    src: url("fonts.css")
+}
+html{
+    font-weight:500;
+}
+.text-color{
+    color: #6f42c1 !important;
+    font-weight:500;
+}
+.list-decor{
+    width: 50px;
+    border: 1px solid #ced4da ;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+.list {
+  height: 50px;
+  text-align: center;
+  line-height: 32px;
+  background: #ffffff;
+  margin: 0 48px;
+  display: inline-block;
+  color: black;
+  position: relative; 
+}
+
+.list::before{
+  content: '';
+  position: absolute;
+  top: 1.5rem;
+  left: -8rem;
+  width: 10rem;
+  height: 1px;
+  background: #ffffff;
+  z-index: -1;
+}
+.mar-25{
+    margin-left:25%;
+}
+.list-text{
+    font-size:13px;
+}
+.list:first-child::before {
+  display: none;
+}
+
+.active {
+  background: #6f42c1;;
+}
+
+.active ~ .list {
+  background: #ffffff;
+}
+.text-center-header {
+    text-align: center!important
+}
+.active ~ .list::before {
+  background: #ced4da;
+}
+.br-radius{
+    border-radius: 0px;
+}
+.circle {
+    position: relative; 
+    border: 1px solid #ced4da; 
+    border-radius: 100%; 
+    width: 50px; 
+    line-height: 50px; 
+    text-align: center;
+    margin-top: 50px; 
+    background-color: #fff; 
+    z-index: 2;
+}
+.circle:first-child {
+    margin-top: 0;
+}
+
+.mar-45{
+    margin-left:45%;
+}
+.circle::before {
+    position: absolute;
+    border: 1px solid #ced4da; 
+    width: 0; 
+    height: 15rem; 
+    display: block; 
+    content: ''; 
+    left: 50%; 
+    z-index: 1; 
+    top: 3.1rem; 
+}
+
+@media (max-width: 768px) and (orientation:landscape) {
+    .circle::before {
+       display: none; 
+    }
+     
+}
+@media (max-width:576px){
+    .list{
+        margin: 0 32px;
+    }
+    .list::before{
+        width: 112px;
+        left: -70px;
+    }
+}
+@media (max-width:340px) {
+    .text-center-header {
+        text-align: left!important
+    }
+    .list {
+        margin: 0px 12px;
+    }
+    .list::before {
+        width: 44px;
+        left: -40px;
+    }
+    
+ }

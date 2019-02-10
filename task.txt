@@ -1,0 +1,11 @@
+Please find attached layout of simple registration form. Attachment has two screen shots showing landscape
+( Screen size > 768px ) and Portrait (Screen size < 768px ) mode of registration screen. 
+
+Please write responsive html which renders it self as shown in images.
+
+You can use bootstrap for responsiveness. Here are few guidelines about what should be avoided
+1. Assigning Id to elements
+2. Overriding default bootstrap classes.
+3. Inline CSS
+4. Unnecessary CSS classes
+5. Confusing CSS class names
