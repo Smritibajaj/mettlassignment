@@ -114,6 +114,10 @@ html{
         width: 52px;
         left: -44px;
     }
+ .list:first-child::before {
+  display: none;
+  margin: 0px 10px;
+}
     
  }
 @media (max-width:320px){
